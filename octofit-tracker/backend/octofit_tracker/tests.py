@@ -8,8 +8,8 @@ class UserModelTest(TestCase):
 
 class TeamModelTest(TestCase):
     def test_team_creation(self):
-        team = Team.objects.create(name='Test Team')
-        self.assertEqual(team.name, 'Test Team')
+        team = Team.objects.create(name='Test1 Team')
+        self.assertEqual(team.name, 'Test1 Team')
 
 class ActivityModelTest(TestCase):
     def test_activity_creation(self):
